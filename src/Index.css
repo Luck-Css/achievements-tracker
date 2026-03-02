@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: zodiak;
+    src: url(../src/assets/fonts/Zodiak/Zodiak-Bold.otf);
+
+    font-family: panchang;
+    src: url("../src/assets/fonts/Panchang/Panchang-Bold.otf");
+    
+}
+
+
+@theme {
+    --font-zodiak: zodiak;
+    --font-panchang: panchang;
+}
