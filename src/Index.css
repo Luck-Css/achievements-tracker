@@ -1,16 +1,24 @@
 @import "tailwindcss";
 
+@font-face {   
+    font-family: Crosner;
+    src: url("../src/assets/fonts/Crosner/Crosner-Regular-FREE.otf");
+       
+}
 @font-face {
-    font-family: zodiak;
-    src: url(../src/assets/fonts/Zodiak/Zodiak-Bold.otf);
-
-    font-family: panchang;
-    src: url("../src/assets/fonts/Panchang/Panchang-Bold.otf");
+    font-family: Rovian;
+    src: url("../src/assets/fonts/Rovian/CSRovian-Regular_demo-BF699c126e68bd4.otf");
     
+}
+@font-face {
+    font-family: Club;
+    src: url(../src/assets/fonts/Club/GC-CLUB-BRAND-BF699d5381bfaa1.ttf);    
 }
 
 
 @theme {
-    --font-zodiak: zodiak;
-    --font-panchang: panchang;
+    --font-rovian: Rovian;
+    --font-crosner: Crosner;
+    --font-club: Club;
+    
 }
