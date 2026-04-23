@@ -8,14 +8,19 @@ function App() {
 
   return (
     <>
-    <section className='grid bg-zinc-600 h-screen place-items-center  '>
-      <h1 className='font-club text-8xl text-zinc-300'><span className='text-amber-300'>Achievements</span> Tracker</h1>
-      <div className='bg-zinc-400/60 h-400 w-250 rounded-3xl flex flex-col p-10'>
-      <GameCard />
+    <div className=''>
+      <header>
+        <h1>Achievements Tracker</h1>
+      </header>
 
-      </div>
+      <section>
 
-    </section>
+      </section>
+
+      <footer>
+
+      </footer>
+    </div>
     </>
   )
 }
